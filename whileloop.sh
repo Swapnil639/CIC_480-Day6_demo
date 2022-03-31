@@ -1,9 +1,9 @@
-#!/bin/bash -x
+#!/bin/bash
 
 cnt=0;
 
 while [ $cnt -lt 5 ]
-do 
-      echo $cnt
-      ((cnt++));
+do
+	echo $cnt;
+	((cnt++));
 done
